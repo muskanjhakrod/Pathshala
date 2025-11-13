@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnZone PWA - Education Without Limits</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="manifest" href="public/manifest.json">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        /* Custom styles can go here if Tailwind isn't enough for something specific */
+        .feature-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.2s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <header class="bg-blue-700 text-white p-4 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">LearnZone PWA</a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-blue-200">Home</a></li>
+                    <li><a href="lessons.html" class="hover:text-blue-200">Lessons</a></li>
+                    <li><a href="community.html" class="hover:text-blue-200">Community</a></li>
+                    <li><a href="progress.html" class="hover:text-blue-200">Progress</a></li>
+                    <li><a href="login.html" class="bg-white text-blue-700 px-3 py-1 rounded-md hover:bg-gray-100">Login</a></li>
+                    <li><a href="signup.html" class="bg-green-500 text-white px-3 py-1 rounded-md hover:bg-green-600">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white text-center py-20 px-4">
+            <div class="container mx-auto">
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Learn Anytime, Anywhere.</h1>
+                <p class="text-lg md:text-xl mb-8">Your personalized education platform, built for offline access and rural communities.</p>
+                <a href="#" id="cta-start-learning" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transition duration-300">Start Learning Now!</a>
+            </div>
+        </section>
+
+        <section class="py-16 px-4 bg-white">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">About LearnZone PWA</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    LearnZone PWA is dedicated to revolutionizing education for underserved communities, especially in low-connectivity areas. We leverage cutting-edge PWA technology, AI, and community power to deliver high-quality, personalized, and accessible learning experiences right to your device, even without constant internet.
+                </p>
+            </div>
+        </section>
+
+        <section class="py-12 px-4 bg-gray-50 text-center">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8">Dive into Study Material</h2>
+                <div class="bg-white rounded-lg shadow-xl p-8 max-w-md mx-auto hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Explore Our Free Courses</h3>
+                    <p class="text-gray-700 mb-6">Access a vast library of lessons, from foundational subjects to vocational skills, all designed for offline learning.</p>
+                    <a href="#" id="explore-lessons" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-md transition duration-300">Browse Lessons</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 px-4 bg-gray-100">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-10">Our Powerful Features</h2>
+                <div id="features-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-6 text-center mt-12">
+        <div class="container mx-auto">
+            <p>&copy; 2023 LearnZone PWA. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-2">
+                <a href="#" class="hover:text-blue-400">Privacy Policy</a>
+                <a href="#" class="hover:text-blue-400">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
