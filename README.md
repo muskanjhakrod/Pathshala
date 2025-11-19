@@ -71,7 +71,7 @@ Pathshala/
 ### **1. Clone the Repository**
 
 ```bash
-git clone [Your Repository URL]
+git clone [Repository URL]
 cd Pathshala
 ```
 
